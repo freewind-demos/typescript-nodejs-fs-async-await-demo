@@ -1,8 +1,5 @@
 {
   "scripts": {
-    "demo": "node hello.js"
-  },
-  "dependencies": {
-    "lodash": "^4.17.10"
+    "demo": "node hello-async-await.js"
   }
 }
