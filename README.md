@@ -1,11 +1,9 @@
-JavaScript ES7 "async/await" Demo
-=================================
+TypeScript NodeJS "fs" Async/Await Demo
+=======================================
 
-ES7原来和ES2016是一个规范。
+如何对NodeJS的`fs`中的方法使用`async/await`关键字。
 
-在这个规范里，增加了`async/await`关键字，从语法层面上增强了`promise`，让我们不再需要写那么多的`then`，让Promise更好用，从而更大程度的解决了JavaScript的回调地狱问题。
-
-使用`async`和`await`这两个关键字，在语法层面上，把“异步代码”变成了“同步代码”。
+关键在于需要手动把它们包装成`promisify`函数把相关的方法进行转换，还有点麻烦。
 
 ```
 npm install

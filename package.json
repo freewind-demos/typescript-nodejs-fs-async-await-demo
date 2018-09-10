@@ -1,5 +1,12 @@
 {
   "scripts": {
-    "demo": "node hello-async-await.js"
+    "demo": "rm -rf test-dir && ts-node demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "ts-node": "^7.0.1"
+  },
+  "dependencies": {
+    "typescript": "^3.0.3"
   }
 }
